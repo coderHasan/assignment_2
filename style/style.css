@@ -409,6 +409,98 @@ a {
   font-weight: 800;
   margin-bottom: 10px;
 }
+.bmi-chart-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.bmi-table-box {
+  width: 50%;
+}
+
+.bmi-table-box h1 {font-weight: 800;margin-bottom: 30px;}
+table {border-collapse: collapse;}
+table , thead, th {
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  padding: 10px 15px;
+  text-align: left;
+  color: white;
+}
+.bmi th  {
+  color: white !important;
+}
+table, tbody, th {
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  padding: 10px 15px;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.50);
+  font-size: .8rem;
+}
+
+.bmiCalWrap {
+  background-color: #222222;
+  padding: 30px 0px;
+}
+
+.bmi-chart-box h1 {
+  margin-bottom: 10px;
+  font-weight: 800;
+}
+
+.bmi-chart-box p {
+  color: rgba(255, 255, 255, 0.50);
+  font-size: .9rem;
+  width: 90%;
+  margin-bottom: 30px;
+}
+
+.chart-box li {
+  background-color: rgba(255, 255, 255, 0.10);
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 0.50);
+  font-size: .9rem;
+}
+
+.chart-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+#gender select {
+  width: 100%;
+  background-color: rgb(75 75 75 / 10%);
+  border: none;
+  color: rgba(255, 255, 255, 0.50);
+  outline: none;
+}
+
+
+#activity {
+  grid-column: span 2;
+}
+
+#activity select {
+  width: 100%;
+  background-color: rgb(57 57 57 / 10%);
+  border: none;
+  outline: none;
+  color: rgba(255, 255, 255, 0.50);
+}
+
+#calc-btn {
+  display: block;
+  margin: auto;
+  padding: 15px 50px;
+  border-radius: 30px;
+}
+
+
+
+
+
 /* Mobile Responsive */
 @media screen and (max-width: 576px) {
   .container {
