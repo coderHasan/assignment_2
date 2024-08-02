@@ -1,0 +1,622 @@
+/* Font link */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Miss+Fajardose&display=swap");
+/* Default Style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(17, 17, 17, 1);
+}
+section {
+  margin: 50px 0px;
+}
+.font-style {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-variation-settings: "slnt" 0;
+}
+.miss-fajardose-regular {
+  font-family: "Miss Fajardose", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.container {
+  width: 1200px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+.text-color {
+  color: #e6533c;
+}
+.bg-color {
+  background-color: #e6533c;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.text-white {
+  color: white;
+}
+.btn {
+  padding: 10px 30px;
+  border-radius: 20px;
+  background-color: #f55d46;
+  color: white;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.btn2 {
+  padding: 10px 30px;
+  border-radius: 20px;
+  color: white;
+  border: 1px solid white;
+  font-weight: 700;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* Nav */
+.header{
+  position: relative;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0px;
+}
+
+.nav ul {
+  display: flex;
+  gap: 40px;
+}
+
+.nav ul li a {
+  color: white;
+  font-size: 15px;
+}
+
+.home {
+  padding: 5px 15px;
+  border-radius: 15px;
+  font-weight: 600;
+}
+.logo h4 {
+  font-size: 25px;
+  font-weight: 800;
+}
+.menu {
+  display: none;
+}
+
+/* Banner */
+
+.banner {
+  display: flex;
+  height: 400px;
+}
+.banner-title-box {
+  width: 50%;
+}
+.video-count-box {
+  background-image: url("../assets/Images 2.png");
+  width: 50%;
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: contain;
+}
+.banner-title-box {
+  width: 50%;
+  margin-top: 45px;
+}
+
+.banner {
+  display: flex;
+}
+
+.banner-title {
+  font-size: 50px;
+  font-weight: 800;
+  margin-bottom: 15px;
+  line-height: 60px;
+}
+.banner-title span {
+  font-size: 4.5rem;
+}
+.banner-desc {
+  width: 70%;
+  font-size: 14px;
+  color: #959595;
+  margin-bottom: 20px;
+}
+
+.banner-btn {
+  display: flex;
+  gap: 10px;
+}
+.banner-title-style {
+  font-weight: 600;
+  font-size: 6.5rem;
+}
+.free-video {
+  width: 145px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 86px;
+  position: absolute;
+  right: 0px;
+  backdrop-filter: blur(5px);
+}
+
+.free-video h3 {
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.free-video span {
+  font-size: 10px;
+  color: #b1b0b0;
+}
+.video-tutorial {
+  width: 150px;
+  margin-top: 290px;
+  background: rgba(48, 48, 48, 0.54);
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid rgba(48, 48, 48, 0.54);
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  backdrop-filter: blur(5px);
+}
+
+.video-tutorial h3 {
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.video-tutorial div span {
+  font-size: 11px;
+  color: #afacac;
+}
+
+.doted {
+  width: 25px;
+  height: 25px;
+  background-color: #f47a0d;
+  border-radius: 50%;
+}
+
+/* Habit section */
+.habit-box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+  text-align: center;
+}
+.habit-title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+.habit-desc {
+  text-align: center;
+  color: #959595;
+  width: 50%;
+  margin: auto;
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+
+.habit-single-box img {
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.habit-single-box h3 {
+  margin-bottom: 10px;
+}
+
+.habit-single-box p {
+  font-size: 14px;
+  color: #959595;
+  width: 80%;
+  margin: auto;
+}
+
+.hide {
+  display: none;
+}
+
+/* Run Box */
+.runing-box {
+  background-color: #222222;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.run-title-box {
+  width: 40%;
+  padding: 40px;
+}
+
+.run-img-box {
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  float: right;
+}
+
+.run-img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.run-title-box h1 {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.run-title-box p {
+  font-size: 14px;
+  color: #959595;
+  margin-bottom: 30px;
+}
+
+/* Training Box */
+.training-title-box {
+  width: 50%;
+}
+
+.training-title-box h1 {
+  color: white;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.training-title-box p {
+  color: #959595;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+/* .training-img-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+} */
+
+.image-single-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  z-index: -1;
+}
+
+.image-single-box {
+  height: 200px;
+  position: relative;
+}
+#head1 {
+  grid-column: span 2;
+  background-color: rgba(255, 0, 0, 0.3);
+}
+
+.img-box1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.img-box2 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+#head3 {
+  grid-column: span 2;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#head5 {
+  grid-column: span 2;
+  background-color: rgba(0, 71, 255, 0.3);
+}
+.leg-desc {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  color: black;
+  font-weight: 900;
+}
+
+#head {
+  background-color: rgba(6, 255, 210, 0.5);
+}
+
+.push-desc {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  color: white;
+}
+
+#head2 {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.jump-desc {
+  position: absolute;
+  bottom: 30px;
+  left: 31px;
+  color: white;
+}
+
+.muscles {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  color: white;
+}
+
+#head4 {
+  background-color: rgba(66, 255, 0, 0.3);
+}
+
+.leg-exercises {
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+  color: white;
+}
+
+.pack {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  color: white;
+}
+
+/*Bmi calculator  */
+.bmiCalTitle {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 80px;
+}
+
+.bmiCalTitle h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+/* Mobile Responsive */
+@media screen and (max-width: 576px) {
+  .container {
+    width: 100%;
+    padding: 0px 15px;
+  }
+  /* nav bar */
+  .nav ul {
+    display: none;
+  }
+  .menu {
+    color: white;
+    font-size: 20px;
+    display: block;
+  }
+
+  /* Banner */
+  .banner {
+    display: initial;
+  }
+
+  .banner-title-box {
+    width: 100%;
+  }
+  .banner-title {
+    font-size: 45px;
+  }
+  .banner-title span {
+    font-size: 2.5rem;
+  }
+  .video-count-box {
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    position: relative;
+    margin-top: 50px;
+  }
+
+  .video-tutorial {
+    position: absolute;
+    top: 0;
+  }
+
+  .free-video {
+    margin-top: 45px;
+    width: 139px;
+  }
+  .banner-btn button {
+    padding: 15px 20px;
+    border-radius: 25px;
+  }
+  /* Habit */
+  .habit-desc {
+    text-align: center;
+    color: #959595;
+    width: 50%;
+    margin: auto;
+    font-size: 14px;
+    margin-bottom: 50px;
+  }
+
+  .habit-single-box img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+
+  .habit-single-box h3 {
+    margin-bottom: 10px;
+  }
+
+  .habit-single-box p {
+    font-size: 14px;
+    color: #959595;
+    margin-bottom: 30px;
+  }
+
+  .habit-box {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .habit-desc {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .habit-single-box p {
+    width: 60%;
+    margin: 0 auto 40px auto;
+  }
+  /* Run Box */
+  .runing-box {
+    flex-direction: column;
+  }
+
+  .run-title-box {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .btn1 {
+    width: 100%;
+    padding: 15px 0px;
+    border-radius: 30px;
+  }
+  .run-img-box {
+    margin: auto;
+    width: 100%;
+  }
+  /* Training Box */
+  #head2 {
+    display: none;
+  }
+
+  #head5 {
+    display: none;
+  }
+
+  .training-title-box {
+    width: 100%;
+  }
+
+  #head {
+    grid-column: span 2;
+  }
+
+  #head4 {
+    grid-column: span 3;
+  }
+}
+/* Tablet Responsive */
+@media (min-width: 576px) and (max-width: 992px) {
+  .container {
+    width: 90%;
+  }
+  /* Banner */
+  .banner {
+    display: inline;
+  }
+  .banner-title-box {
+    width: 100%;
+  }
+  .banner-title {
+    font-size: 70px;
+    width: 100%;
+    line-height: 70px;
+  }
+  .banner-desc {
+    width: 50%;
+  }
+  .video-count-box {
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    display: block;
+    position: relative;
+  }
+
+  .video-tutorial {
+    margin: 0;
+    position: absolute;
+    bottom: 80px;
+    left: 220px;
+  }
+
+  .free-video {
+    position: initial;
+    float: right;
+    margin-right: 190px;
+  }
+  /* Habit */
+  .habit-box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .habit-single-box {
+    width: 300px;
+    height: 460px;
+    margin: auto;
+  }
+
+  .habit-single-box img {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  /* Run Box */
+  .runing-box {
+    display: flex;
+  }
+
+  .run-title-box {
+    padding: 20px;
+    width: 50%;
+  }
+
+  .run-title-box h1 {
+    font-size: 35px;
+  }
+
+  .btn {
+    padding: 15px 60px;
+    border-radius: 30px;
+  }
+  /* Training Box */
+  .img-box2 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  #head5 {
+    grid-column: span 1;
+  }
+}
