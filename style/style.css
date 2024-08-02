@@ -770,7 +770,29 @@ footer {
   .meet-title-box h1 {
     font-size: 2rem;
   }
+  /* Footer */
+  .foot-content-wrapper {
+    flex-direction: column;
 }
+
+.footer-content-box {
+    flex-direction: column;
+    width: 100%;
+}
+
+.contact-box {
+    margin-bottom: 20px;
+}
+
+.footer-head-title {
+    width: 100%;
+    margin-bottom: 10px;
+}
+}
+
+
+
+
 
 /* Tablet Responsive */
 @media (min-width: 576px) and (max-width: 992px) {
@@ -875,4 +897,12 @@ footer {
   .meet-title-box {
     width: 100%;
   }
+  /* Footer */
+  .foot-content-wrapper {
+    flex-direction: column;
+}
+
+.footer-head-title {
+    width: 50%;
+}
 }
