@@ -67,7 +67,7 @@ a {
 }
 
 /* Nav */
-.header{
+.header {
   position: relative;
 }
 .nav {
@@ -419,23 +419,32 @@ a {
   width: 50%;
 }
 
-.bmi-table-box h1 {font-weight: 800;margin-bottom: 30px;}
-table {border-collapse: collapse;}
-table , thead, th {
-  border: 1px solid rgba(255, 255, 255, 0.10);
+.bmi-table-box h1 {
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+table {
+  border-collapse: collapse;
+}
+table,
+thead,
+th {
+  border: 1px solid rgba(255, 255, 255, 0.1);
   padding: 10px 15px;
   text-align: left;
   color: white;
 }
-.bmi th  {
+.bmi th {
   color: white !important;
 }
-table, tbody, th {
-  border: 1px solid rgba(255, 255, 255, 0.10);
+table,
+tbody,
+th {
+  border: 1px solid rgba(255, 255, 255, 0.1);
   padding: 10px 15px;
   text-align: left;
-  color: rgba(255, 255, 255, 0.50);
-  font-size: .8rem;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
 }
 
 .bmiCalWrap {
@@ -449,18 +458,18 @@ table, tbody, th {
 }
 
 .bmi-chart-box p {
-  color: rgba(255, 255, 255, 0.50);
-  font-size: .9rem;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.9rem;
   width: 90%;
   margin-bottom: 30px;
 }
 
 .chart-box li {
-  background-color: rgba(255, 255, 255, 0.10);
+  background-color: rgba(255, 255, 255, 0.1);
   padding: 10px 15px;
   border-radius: 5px;
-  color: rgba(255, 255, 255, 0.50);
-  font-size: .9rem;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.9rem;
 }
 
 .chart-box {
@@ -473,10 +482,9 @@ table, tbody, th {
   width: 100%;
   background-color: rgb(75 75 75 / 10%);
   border: none;
-  color: rgba(255, 255, 255, 0.50);
+  color: rgba(255, 255, 255, 0.5);
   outline: none;
 }
-
 
 #activity {
   grid-column: span 2;
@@ -487,7 +495,7 @@ table, tbody, th {
   background-color: rgb(57 57 57 / 10%);
   border: none;
   outline: none;
-  color: rgba(255, 255, 255, 0.50);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 #calc-btn {
@@ -497,29 +505,32 @@ table, tbody, th {
   border-radius: 30px;
 }
 /* Team Box */
-.training-single-box h4{
-  color: white
+.training-single-box h4 {
+  color: white;
 }
-.training-single-box span{
-  color: rgba(255, 255, 255, 0.50);
-  font-size: .9rem;
+.training-single-box span {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.9rem;
 }
-.training-single-box {position: relative;height: 300px;}
+.training-single-box {
+  position: relative;
+  height: 300px;
+}
 
 .training-single-box img {
-    width: 100%;
-    height: 100%;
-    border-radius: 15px;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  object-fit: cover;
 }
 
 .trainer-box {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    background-color: rgb(57 47 47 / 36%);
-    padding: 10px;
-    border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  background-color: rgb(57 47 47 / 36%);
+  padding: 10px;
+  border-radius: 10px;
 }
 .name {
   position: absolute;
@@ -540,13 +551,9 @@ table, tbody, th {
 }
 
 .meet-title-box p {
-  color: rgba(255, 255, 255, 0.50);
+  color: rgba(255, 255, 255, 0.5);
   margin-bottom: 50px;
 }
-
-
-
-
 
 /* Mobile Responsive */
 @media screen and (max-width: 576px) {
@@ -680,27 +687,33 @@ table, tbody, th {
 
   .bmiCalTitle {
     width: 100%;
-}
+  }
 
-.bmi-chart-wrap {
+  .bmi-chart-wrap {
     flex-direction: column;
-}
+  }
 
-.bmi-table-box {
+  .bmi-table-box {
     width: 100%;
     margin-bottom: 30px;
-}
+  }
 
-#calc-btn {
+  #calc-btn {
     margin: 0;
+  }
+  /* Our Team Box */
+  .trainer-box {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .meet-title-box {
+    width: 100%;
+  }
+
+  .meet-title-box h1 {
+    font-size: 2rem;
+  }
 }
-/* Our Team Box */
-
-}
-
-
-
-
 
 /* Tablet Responsive */
 @media (min-width: 576px) and (max-width: 992px) {
@@ -787,20 +800,22 @@ table, tbody, th {
 
   .bmiCalTitle {
     width: 100%;
-}
+  }
 
-.bmi-chart-wrap {
+  .bmi-chart-wrap {
     flex-direction: column;
-}
+  }
 
-.bmi-table-box {
+  .bmi-table-box {
     width: 100%;
     margin-bottom: 30px;
-}
+  }
 
-#calc-btn {
+  #calc-btn {
     margin: 0;
-}
-/* Our Team Box */
-
+  }
+  /* Our Team Box */
+  .meet-title-box {
+    width: 100%;
+  }
 }
